@@ -1,0 +1,1 @@
+Lười qué =(( https://www.javatpoint.com/operators-in-java
