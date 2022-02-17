@@ -1,4 +1,4 @@
-package com.thuduyen07.JavaVariables;
+package com.thuduyen07.C4_JavaVariables;
 
 /**
  * Overflow occurs when we assign such a value to a variable which is more than the maximum permissible value

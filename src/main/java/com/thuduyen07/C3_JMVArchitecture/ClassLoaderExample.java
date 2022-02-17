@@ -1,4 +1,4 @@
-package com.thuduyen07.JMVArchitecture;
+package com.thuduyen07.C3_JMVArchitecture;
 
 /**
  * Print the classloader name

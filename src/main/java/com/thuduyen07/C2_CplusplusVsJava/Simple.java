@@ -1,6 +1,6 @@
-package com.thuduyen07.WhatIsJava;
+package com.thuduyen07.C2_CplusplusVsJava;
 
-public class Simple {
+class Simple {
     public static void main(String[] args) {
         System.out.println("Hello Java");
     }

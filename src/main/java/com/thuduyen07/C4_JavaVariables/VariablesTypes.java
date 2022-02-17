@@ -1,4 +1,4 @@
-package com.thuduyen07.JavaVariables;
+package com.thuduyen07.C4_JavaVariables;
 
 public class VariablesTypes {
     static int m = 100; // static variable

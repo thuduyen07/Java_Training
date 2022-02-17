@@ -1,4 +1,4 @@
-package com.thuduyen07.JavaVariables;
+package com.thuduyen07.C4_JavaVariables;
 
 /**
  * Widening: converting a lower datatype to a higher datatype

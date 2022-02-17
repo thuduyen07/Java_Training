@@ -1,4 +1,4 @@
-package com.thuduyen07.JavaVariables;
+package com.thuduyen07.C4_JavaVariables;
 
 /**
  * Narrowing: converting a higher datatype to a lower datatype
