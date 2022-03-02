@@ -20,5 +20,4 @@ public class DonateBloodConditionChecking {
             System.out.println("Your age must be greater than 18");
         }
     }
-    //todo continue with this link: https://www.javatpoint.com/java-switch
 }
