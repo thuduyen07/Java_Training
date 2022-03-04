@@ -11,4 +11,6 @@ public class ContinueMethod {
             //wanna call another method here
         }while(continueAnswer.equals("y"));
     }
+
+
 }
