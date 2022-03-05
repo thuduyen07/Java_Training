@@ -6,7 +6,6 @@ public class Palindrome {
     static Scanner console = new Scanner(System.in);
 
     //todo Is there any notation such as Step, Describe, etc. to note these method?
-
     /**
      * Get user's input from console
      * @return givenValue -- user's input
@@ -44,16 +43,37 @@ public class Palindrome {
         }
     }
 
-    //todo Try with number/10 idea https://www.javatpoint.com/palindrome-program-in-java
+    // todo use try catch to handle integer overflow --> recommend to use "check palindrome string" method
+    private static boolean checkPalindromeNumber(){
+        System.out.print("\nPlease enter a number you need to check: ");
+        int givenNumber = console.nextInt();
+        int reversedNumber = 0;
+        int quotient = givenNumber;
+        while(quotient!=0){
+            int remainder = quotient%10; //difficult part =)) -- before quotient change
+            quotient = quotient/10;
+            reversedNumber = reversedNumber*10 + remainder; //difficult part =)) -- do not use pow
+        }
+        if(givenNumber==reversedNumber){
+            System.out.printf("%d is palindrome number", givenNumber);
+            return true;
+        }
+        System.out.printf("%d is not palindrome number", givenNumber);
+        return false;
+    }
 
     public static void main(String[] args) {
+
+        //Check whether any string is palindrome
         String testValue = getValueToCheck();
         String reversedTestValue = reverseValue(testValue);
         if(compareGivenValueAndReversedValue(testValue, reversedTestValue)){
             System.out.printf("%s is palindrome", testValue);
         } else {
-            System.out.printf("%s is not palindrome", testValue);
+            System.out.printf("%s is not palindrome\n", testValue);
         }
 
+        // Check whether any number is palindrome number
+        checkPalindromeNumber();
     }
 }
