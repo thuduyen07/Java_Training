@@ -1,20 +1,8 @@
-package com.thuduyen07.C11_JavaProgram.JavaBasicProgram;
+package com.thuduyen07.C11_JavaProgram.Basic;
 
-import java.util.Scanner;
+public class Palindrome extends Base {
 
-public class Palindrome {
-    static Scanner console = new Scanner(System.in);
 
-    //todo Is there any notation such as Step, Describe, etc. to note these method?
-    /**
-     * Get user's input from console
-     * @return givenValue -- user's input
-     */
-    private static String getValueToCheck(){
-        System.out.print("Please enter value for checking: ");
-        String givenValue = console.next();
-        return givenValue;
-    }
 
     /**
      * reverse the given value
@@ -65,7 +53,7 @@ public class Palindrome {
     public static void main(String[] args) {
 
         //Check whether any string is palindrome
-        String testValue = getValueToCheck();
+        String testValue = getStringFromConsole();
         String reversedTestValue = reverseValue(testValue);
         if(compareGivenValueAndReversedValue(testValue, reversedTestValue)){
             System.out.printf("%s is palindrome", testValue);

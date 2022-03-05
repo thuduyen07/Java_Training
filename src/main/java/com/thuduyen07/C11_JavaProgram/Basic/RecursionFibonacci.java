@@ -1,4 +1,4 @@
-package com.thuduyen07.C11_JavaProgram.JavaBasicProgram;
+package com.thuduyen07.C11_JavaProgram.Basic;
 
 import java.util.ArrayList;
 import java.util.List;
