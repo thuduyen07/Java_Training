@@ -52,3 +52,5 @@ public class PrimeNumber {
         System.out.println(primeNumberList);
     }
 }
+
+// https://www.javatpoint.com/prime-number-program-in-java

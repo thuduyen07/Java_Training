@@ -65,3 +65,5 @@ public class Palindrome extends Base {
         checkPalindromeNumber();
     }
 }
+
+// https://www.javatpoint.com/palindrome-program-in-java
