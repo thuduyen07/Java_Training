@@ -15,8 +15,18 @@ public class Base {
         return console.next();
     }
 
+    public static String getStringFromConsole(String text){
+        System.out.print("Please enter " + text + ": ");
+        return console.next();
+    }
+
     public static int getIntFromConsole(){
         System.out.print("Please enter a integer: ");
+        return console.nextInt();
+    }
+
+    public static int getIntFromConsole(String text){
+        System.out.print("Please enter " + text + ": ");
         return console.nextInt();
     }
 }

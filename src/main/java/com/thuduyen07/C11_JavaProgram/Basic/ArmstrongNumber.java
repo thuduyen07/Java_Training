@@ -40,4 +40,4 @@ public class ArmstrongNumber extends Base{
     }
 }
 
-// todo check for mathematical solution =)) here https://www.javatpoint.com/armstrong-number-in-java
+// check for mathematical solution =)) here https://www.javatpoint.com/armstrong-number-in-java
