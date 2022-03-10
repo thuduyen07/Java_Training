@@ -75,4 +75,4 @@ public class RandomNumber extends Base {
     }
 }
 
-/** Reference: https://www.javatpoint.com/how-to-generate-random-number-in-java */
+// https://www.javatpoint.com/how-to-generate-random-number-in-java
