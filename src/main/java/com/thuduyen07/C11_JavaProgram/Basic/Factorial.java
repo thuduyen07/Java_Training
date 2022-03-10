@@ -31,3 +31,5 @@ public class Factorial extends Base{
         System.out.printf("Factorial of %d is %d", givenNumber, recursionFactorial(givenNumber));
     }
 }
+
+// https://www.javatpoint.com/factorial-program-in-java
