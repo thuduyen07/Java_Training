@@ -46,27 +46,42 @@ public class PrintPattern {
         }
     }
 
-    public static void printOtherPyramid(int rowNumber){ //printRightTriangle and insert blank space before those stars =)) -- khos vl =((
-        for(int i=0; i<rowNumber; i++){
+    public static void printMyInvertedParymid(int rowNumber) { // tu nhien no chay dc, hong hiu minh viet gi luon =((
+        for (int i = 0; i < rowNumber; i++) {
+            for (int j = -1; j <= rowNumber + 1 - i; j++) {
+                if (j >= i-1) {
+                    System.out.print("* ");
+                } else {
+                    System.out.print("  ");
+                }
+            }
+            System.out.println();
+        }
+    }
+
+    public static void printDiamond(int rowNumber) { //hong giong =((
+        printMyPyramid(rowNumber/2);
+        printMyInvertedParymid(rowNumber/2);
+    }
+
+    public static void printOtherPyramid(int rowNumber) { //printRightTriangle and insert blank space before those stars =)) -- khos vl =((
+        for (int i = 0; i < rowNumber; i++) {
             // Insert blank space before stars
-            for(int j=rowNumber-i; j>0; j--){
+            for (int j = rowNumber - i; j > 0; j--) {
                 System.out.print(" ");
             }
             // Draw stars =))
-            for(int j=0; j<i+1; j++){
+            for (int j = 0; j < i + 1; j++) {
                 System.out.print("* ");
             }
             System.out.println();
         }
     }
 
+
     public static void main(String[] args) {
-        printLeftTriangle(6);
-        printRightTriangle(6);
-        printMyPyramid(6);
-        printOtherPyramid(6);
+        printDiamond(8);
     }
 }
 
-// https://www.javatpoint.com/java-programs#java-basic-programs
-// ua nho ve dc diamond goi ma =((
+// https://www.javatpoint.com/java-programs#java-basic-programs -- toi cai diamond thieu hang giua a =((
