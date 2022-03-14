@@ -69,3 +69,4 @@ public class PrintPattern {
 }
 
 // https://www.javatpoint.com/java-programs#java-basic-programs
+// ua nho ve dc diamond goi ma =((
